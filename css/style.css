@@ -1,0 +1,90 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+/* CSS Document */
+.circle
+{ width: 55px; height: 55px; 
+	background: #fff; box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius:50%;
+	text-align: center; line-height: 55px; 
+	font-size: 1.2rem;
+	color: #000;
+	border:none
+}
+.ke
+{ 
+	position: absolute; right: 13%; top: 10%;
+	width: 2px; height: 75%; 
+	background: #ddd
+}
+@media (max-width:1000px){
+	.ke{ right: 8%;}
+}	
+@media (max-width:600px){
+	.ke{ right:17%;}
+}	
+
+.navbar .form-inline
+{ 
+	background: #fff; border: 1px solid #ddd;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	position: relative;
+	display: flex
+}
+.navbar .form-inline .btn{ position: absolute; right: 5px}
+.navbar .form-control { border: none; background: transparent; width:95%}
+.navbar .badge { position:absolute; padding:5px 7px; border-radius: 50%; font-size: 0.9rem}
+
+.bg-2mau{ 
+	background-image:url("../img/bg-section1.jpg") ;
+	background-repeat:  repeat-y;
+	background-position: center top
+}
+@media (max-width:992px){
+	.bg-2mau{ background-position: 35% top}
+}
+.bg-2mau2{background:url("../img/bg-section2.jpg") repeat-y center top}
+.text-gach-ngang{ text-decoration: line-through}
+.page-tiltle{ background: url("../img/bg-page.png") no-repeat right top 100%; min-height: 450px}
+#sp-tab .card
+{height: 100%;
+	
+}
+.bgg{
+	background: url("../img/tm_bg 1.png") repeat-y;
+
+	
+}
+.bgg1{
+background: #FFF;
+	width:100%;
+	position: absolute;
+	height: 345px;
+	height: 330px;
+	bottom:0;
+	border-radius: 20px
+}
+.sub-title2{
+	position: absolute;
+
+	top: 195px;
+	right: 1050px
+}
+.sub-title3{
+	position: absolute;
+
+	top: 250px;
+	right: 1155px;
+	
+}
+.c1{
+	position: relative;
+	top: -180px;
+	right:-250px
+	
+	
+}
